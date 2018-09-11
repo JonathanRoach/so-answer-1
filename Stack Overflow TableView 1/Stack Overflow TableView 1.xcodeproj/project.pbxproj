@@ -1,0 +1,717 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000ABCD1235 /* ALBind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1236 /* ALBind.framework */; };
+		0000000000000000ABCD1237 /* ALMultiDelegate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1238 /* ALMultiDelegate.framework */; };
+		0000000000000000ABCD1239 /* ALTableViewHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123A /* ALTableViewHelper.framework */; };
+		0000000000000000ABCD123B /* ALCollectionViewHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123C /* ALCollectionViewHelper.framework */; };
+		0000000000000000ABCD123D /* ALViewListHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123E /* ALViewListHelper.framework */; };
+		0000000000000000ABCD123F /* ALParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1240 /* ALParser.framework */; };
+		0000000000000000ABCD1241 /* ALViewDescriptions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1242 /* ALViewDescriptions.framework */; };
+		0000000000000000ABCD1243 /* ALObserve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1244 /* ALObserve.framework */; };
+		0000000000000000ABCD1245 /* ALClassSwizzler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1246 /* ALClassSwizzler.framework */; };
+		0000000000000000ABCD1247 /* ALObservableContainers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1248 /* ALObservableContainers.framework */; };
+		0000000000000000ABCD124B /* ALBind.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1236 /* ALBind.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124C /* ALMultiDelegate.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1238 /* ALMultiDelegate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124D /* ALCollectionViewHelper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123C /* ALCollectionViewHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124E /* ALTableViewHelper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123A /* ALTableViewHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD124F /* ALViewListHelper.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD123E /* ALViewListHelper.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1250 /* ALParser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1240 /* ALParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1251 /* ALViewDescriptions.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1242 /* ALViewDescriptions.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1252 /* ALObserve.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1244 /* ALObserve.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1253 /* ALClassSwizzler.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1246 /* ALClassSwizzler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0000000000000000ABCD1254 /* ALObservableContainers.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0000000000000000ABCD1248 /* ALObservableContainers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3969EAA82142BB1D00220A58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969EAA72142BB1D00220A58 /* AppDelegate.swift */; };
+		3969EAAA2142BB1D00220A58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969EAA92142BB1D00220A58 /* ViewController.swift */; };
+		3969EAAD2142BB1D00220A58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3969EAAB2142BB1D00220A58 /* Main.storyboard */; };
+		3969EAAF2142BB1F00220A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3969EAAE2142BB1F00220A58 /* Assets.xcassets */; };
+		3969EAB22142BB1F00220A58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3969EAB02142BB1F00220A58 /* LaunchScreen.storyboard */; };
+		3969EABD2142BB1F00220A58 /* Stack_Overflow_TableView_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969EABC2142BB1F00220A58 /* Stack_Overflow_TableView_1Tests.swift */; };
+		3969EAC82142BB1F00220A58 /* Stack_Overflow_TableView_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3969EAC72142BB1F00220A58 /* Stack_Overflow_TableView_1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3969EAB92142BB1F00220A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3969EA9C2142BB1D00220A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3969EAA32142BB1D00220A58;
+			remoteInfo = "Stack Overflow TableView 1";
+		};
+		3969EAC42142BB1F00220A58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3969EA9C2142BB1D00220A58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3969EAA32142BB1D00220A58;
+			remoteInfo = "Stack Overflow TableView 1";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0000000000000000ABCD124A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0000000000000000ABCD124B /* ALBind.framework in CopyFiles */,
+				0000000000000000ABCD124C /* ALMultiDelegate.framework in CopyFiles */,
+				0000000000000000ABCD124D /* ALCollectionViewHelper.framework in CopyFiles */,
+				0000000000000000ABCD124E /* ALTableViewHelper.framework in CopyFiles */,
+				0000000000000000ABCD124F /* ALViewListHelper.framework in CopyFiles */,
+				0000000000000000ABCD1250 /* ALParser.framework in CopyFiles */,
+				0000000000000000ABCD1251 /* ALViewDescriptions.framework in CopyFiles */,
+				0000000000000000ABCD1252 /* ALObserve.framework in CopyFiles */,
+				0000000000000000ABCD1253 /* ALClassSwizzler.framework in CopyFiles */,
+				0000000000000000ABCD1254 /* ALObservableContainers.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0000000000000000ABCD1236 /* ALBind.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALBind.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALBind.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1238 /* ALMultiDelegate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALMultiDelegate.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALMultiDelegate.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD123A /* ALTableViewHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALTableViewHelper.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALTableViewHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD123C /* ALCollectionViewHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALCollectionViewHelper.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALCollectionViewHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD123E /* ALViewListHelper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALViewListHelper.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALViewListHelper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1240 /* ALParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALParser.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALParser.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1242 /* ALViewDescriptions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALViewDescriptions.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALViewDescriptions.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1244 /* ALObserve.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALObserve.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALObserve.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1246 /* ALClassSwizzler.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALClassSwizzler.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALClassSwizzler.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000ABCD1248 /* ALObservableContainers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ALObservableContainers.framework; path = "../Framework Central/Stack Overflow TableView 1/iphoneos/ALObservableContainers.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3969EAA42142BB1D00220A58 /* Stack Overflow TableView 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack Overflow TableView 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3969EAA72142BB1D00220A58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3969EAA92142BB1D00220A58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3969EAAC2142BB1D00220A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3969EAAE2142BB1F00220A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3969EAB12142BB1F00220A58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3969EAB32142BB1F00220A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3969EAB82142BB1F00220A58 /* Stack Overflow TableView 1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack Overflow TableView 1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3969EABC2142BB1F00220A58 /* Stack_Overflow_TableView_1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_Overflow_TableView_1Tests.swift; sourceTree = "<group>"; };
+		3969EABE2142BB1F00220A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3969EAC32142BB1F00220A58 /* Stack Overflow TableView 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack Overflow TableView 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3969EAC72142BB1F00220A58 /* Stack_Overflow_TableView_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack_Overflow_TableView_1UITests.swift; sourceTree = "<group>"; };
+		3969EAC92142BB2000220A58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3969EAA12142BB1D00220A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000ABCD1235 /* ALBind.framework in Frameworks */,
+				0000000000000000ABCD1237 /* ALMultiDelegate.framework in Frameworks */,
+				0000000000000000ABCD1239 /* ALTableViewHelper.framework in Frameworks */,
+				0000000000000000ABCD123B /* ALCollectionViewHelper.framework in Frameworks */,
+				0000000000000000ABCD123D /* ALViewListHelper.framework in Frameworks */,
+				0000000000000000ABCD123F /* ALParser.framework in Frameworks */,
+				0000000000000000ABCD1241 /* ALViewDescriptions.framework in Frameworks */,
+				0000000000000000ABCD1243 /* ALObserve.framework in Frameworks */,
+				0000000000000000ABCD1245 /* ALClassSwizzler.framework in Frameworks */,
+				0000000000000000ABCD1247 /* ALObservableContainers.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3969EAB52142BB1F00220A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3969EAC02142BB1F00220A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0000000000000000ABCD1255 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000ABCD1248 /* ALObservableContainers.framework */,
+				0000000000000000ABCD1246 /* ALClassSwizzler.framework */,
+				0000000000000000ABCD1244 /* ALObserve.framework */,
+				0000000000000000ABCD1242 /* ALViewDescriptions.framework */,
+				0000000000000000ABCD1240 /* ALParser.framework */,
+				0000000000000000ABCD123E /* ALViewListHelper.framework */,
+				0000000000000000ABCD123C /* ALCollectionViewHelper.framework */,
+				0000000000000000ABCD123A /* ALTableViewHelper.framework */,
+				0000000000000000ABCD1238 /* ALMultiDelegate.framework */,
+				0000000000000000ABCD1236 /* ALBind.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3969EA9B2142BB1D00220A58 = {
+			isa = PBXGroup;
+			children = (
+				3969EAA62142BB1D00220A58 /* Stack Overflow TableView 1 */,
+				3969EABB2142BB1F00220A58 /* Stack Overflow TableView 1Tests */,
+				3969EAC62142BB1F00220A58 /* Stack Overflow TableView 1UITests */,
+				3969EAA52142BB1D00220A58 /* Products */,
+				0000000000000000ABCD1255 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3969EAA52142BB1D00220A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3969EAA42142BB1D00220A58 /* Stack Overflow TableView 1.app */,
+				3969EAB82142BB1F00220A58 /* Stack Overflow TableView 1Tests.xctest */,
+				3969EAC32142BB1F00220A58 /* Stack Overflow TableView 1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3969EAA62142BB1D00220A58 /* Stack Overflow TableView 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3969EAA72142BB1D00220A58 /* AppDelegate.swift */,
+				3969EAA92142BB1D00220A58 /* ViewController.swift */,
+				3969EAAB2142BB1D00220A58 /* Main.storyboard */,
+				3969EAAE2142BB1F00220A58 /* Assets.xcassets */,
+				3969EAB02142BB1F00220A58 /* LaunchScreen.storyboard */,
+				3969EAB32142BB1F00220A58 /* Info.plist */,
+			);
+			path = "Stack Overflow TableView 1";
+			sourceTree = "<group>";
+		};
+		3969EABB2142BB1F00220A58 /* Stack Overflow TableView 1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3969EABC2142BB1F00220A58 /* Stack_Overflow_TableView_1Tests.swift */,
+				3969EABE2142BB1F00220A58 /* Info.plist */,
+			);
+			path = "Stack Overflow TableView 1Tests";
+			sourceTree = "<group>";
+		};
+		3969EAC62142BB1F00220A58 /* Stack Overflow TableView 1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3969EAC72142BB1F00220A58 /* Stack_Overflow_TableView_1UITests.swift */,
+				3969EAC92142BB2000220A58 /* Info.plist */,
+			);
+			path = "Stack Overflow TableView 1UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3969EAA32142BB1D00220A58 /* Stack Overflow TableView 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3969EACC2142BB2000220A58 /* Build configuration list for PBXNativeTarget "Stack Overflow TableView 1" */;
+			buildPhases = (
+				0000000000000000ABCD1234 /* ShellScript */,
+				3969EAA02142BB1D00220A58 /* Sources */,
+				3969EAA12142BB1D00220A58 /* Frameworks */,
+				0000000000000000ABCD1249 /* ShellScript */,
+				3969EAA22142BB1D00220A58 /* Resources */,
+				0000000000000000ABCD124A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stack Overflow TableView 1";
+			productName = "Stack Overflow TableView 1";
+			productReference = 3969EAA42142BB1D00220A58 /* Stack Overflow TableView 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3969EAB72142BB1F00220A58 /* Stack Overflow TableView 1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3969EACF2142BB2000220A58 /* Build configuration list for PBXNativeTarget "Stack Overflow TableView 1Tests" */;
+			buildPhases = (
+				3969EAB42142BB1F00220A58 /* Sources */,
+				3969EAB52142BB1F00220A58 /* Frameworks */,
+				3969EAB62142BB1F00220A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3969EABA2142BB1F00220A58 /* PBXTargetDependency */,
+			);
+			name = "Stack Overflow TableView 1Tests";
+			productName = "Stack Overflow TableView 1Tests";
+			productReference = 3969EAB82142BB1F00220A58 /* Stack Overflow TableView 1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3969EAC22142BB1F00220A58 /* Stack Overflow TableView 1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3969EAD22142BB2000220A58 /* Build configuration list for PBXNativeTarget "Stack Overflow TableView 1UITests" */;
+			buildPhases = (
+				3969EABF2142BB1F00220A58 /* Sources */,
+				3969EAC02142BB1F00220A58 /* Frameworks */,
+				3969EAC12142BB1F00220A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3969EAC52142BB1F00220A58 /* PBXTargetDependency */,
+			);
+			name = "Stack Overflow TableView 1UITests";
+			productName = "Stack Overflow TableView 1UITests";
+			productReference = 3969EAC32142BB1F00220A58 /* Stack Overflow TableView 1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3969EA9C2142BB1D00220A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Framework Central";
+				TargetAttributes = {
+					3969EAA32142BB1D00220A58 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3969EAB72142BB1F00220A58 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3969EAA32142BB1D00220A58;
+					};
+					3969EAC22142BB1F00220A58 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3969EAA32142BB1D00220A58;
+					};
+				};
+			};
+			buildConfigurationList = 3969EA9F2142BB1D00220A58 /* Build configuration list for PBXProject "Stack Overflow TableView 1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3969EA9B2142BB1D00220A58;
+			productRefGroup = 3969EAA52142BB1D00220A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3969EAA32142BB1D00220A58 /* Stack Overflow TableView 1 */,
+				3969EAB72142BB1F00220A58 /* Stack Overflow TableView 1Tests */,
+				3969EAC22142BB1F00220A58 /* Stack Overflow TableView 1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3969EAA22142BB1D00220A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3969EAB22142BB1F00220A58 /* LaunchScreen.storyboard in Resources */,
+				3969EAAF2142BB1F00220A58 /* Assets.xcassets in Resources */,
+				3969EAAD2142BB1D00220A58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3969EAB62142BB1F00220A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3969EAC12142BB1F00220A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0000000000000000ABCD1234 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build phase created and managed by Framework Central: before compilation\n\"${Framework_Central_Resources}/AccessScript.sh\" Stack\\ Overflow\\ TableView\\ 1 iphoneos ALBind +1.1.1 ALClassSwizzler +1.1.1 ALCollectionViewHelper +1.0.0 ALMultiDelegate +1.0.0 ALObservableContainers +1.0.0 ALObserve +1.0.0 ALParser +1.0.0 ALTableViewHelper 1.0.1 ALViewDescriptions +1.0.0 ALViewListHelper +1.0.0\n";
+		};
+		0000000000000000ABCD1249 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Build phase created and managed by Framework Central: after linking\n\"${Framework_Central_Resources}/PostLinkBlessing.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3969EAA02142BB1D00220A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3969EAAA2142BB1D00220A58 /* ViewController.swift in Sources */,
+				3969EAA82142BB1D00220A58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3969EAB42142BB1F00220A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3969EABD2142BB1F00220A58 /* Stack_Overflow_TableView_1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3969EABF2142BB1F00220A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3969EAC82142BB1F00220A58 /* Stack_Overflow_TableView_1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3969EABA2142BB1F00220A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3969EAA32142BB1D00220A58 /* Stack Overflow TableView 1 */;
+			targetProxy = 3969EAB92142BB1F00220A58 /* PBXContainerItemProxy */;
+		};
+		3969EAC52142BB1F00220A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3969EAA32142BB1D00220A58 /* Stack Overflow TableView 1 */;
+			targetProxy = 3969EAC42142BB1F00220A58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3969EAAB2142BB1D00220A58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3969EAAC2142BB1D00220A58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3969EAB02142BB1F00220A58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3969EAB12142BB1F00220A58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3969EACA2142BB2000220A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				Framework_Central_Resources = "$HOME/Library/Containers/com.FrameworkCentral.FrameworkCentral/Data/Library/Application Support/Framework Central/Framework Central.app/Contents/Resources";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3969EACB2142BB2000220A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				Framework_Central_Resources = "$HOME/Library/Containers/com.FrameworkCentral.FrameworkCentral/Data/Library/Application Support/Framework Central/Framework Central.app/Contents/Resources";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3969EACD2142BB2000220A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos";
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator";
+				"FC_LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_LD_RUNPATH_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator";
+				FC_OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS_ALL_SDKS}";
+				"FC_OTHER_LDFLAGS[sdk=iphoneos*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALViewDescriptions.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALObservableContainers.a";
+				"FC_OTHER_LDFLAGS[sdk=iphonesimulator*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALViewDescriptions.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALObservableContainers.a";
+				FC_OTHER_LDFLAGS_ALL_SDKS = "-all_load";
+				FRAMEWORK_SEARCH_PATHS = "${FC_FRAMEWORK_SEARCH_PATHS}";
+				INFOPLIST_FILE = "Stack Overflow TableView 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"${FC_LD_RUNPATH_SEARCH_PATHS}",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.Stack-Overflow-TableView-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3969EACE2142BB2000220A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos";
+				"FC_FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_FRAMEWORK_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator";
+				"FC_LD_RUNPATH_SEARCH_PATHS[sdk=iphonesimulator*]" = "${FC_LD_RUNPATH_SEARCH_PATHS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator";
+				FC_OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS_ALL_SDKS}";
+				"FC_OTHER_LDFLAGS[sdk=iphoneos*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALViewDescriptions.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphoneos/ALObservableContainers.a";
+				"FC_OTHER_LDFLAGS[sdk=iphonesimulator*]" = "${FC_OTHER_LDFLAGS_ALL_SDKS} \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALBind.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALMultiDelegate.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALTableViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALCollectionViewHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALViewListHelper.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALParser.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALViewDescriptions.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALObserve.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALClassSwizzler.a \"$(BUILT_PRODUCTS_DIR)/../Framework Central/Stack Overflow TableView 1/\"iphonesimulator/ALObservableContainers.a";
+				FC_OTHER_LDFLAGS_ALL_SDKS = "-all_load";
+				FRAMEWORK_SEARCH_PATHS = "${FC_FRAMEWORK_SEARCH_PATHS}";
+				INFOPLIST_FILE = "Stack Overflow TableView 1/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"${FC_LD_RUNPATH_SEARCH_PATHS}",
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "${FC_OTHER_LDFLAGS}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.Stack-Overflow-TableView-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3969EAD02142BB2000220A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stack Overflow TableView 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.Stack-Overflow-TableView-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack Overflow TableView 1.app/Stack Overflow TableView 1";
+			};
+			name = Debug;
+		};
+		3969EAD12142BB2000220A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stack Overflow TableView 1Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.Stack-Overflow-TableView-1Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stack Overflow TableView 1.app/Stack Overflow TableView 1";
+			};
+			name = Release;
+		};
+		3969EAD32142BB2000220A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stack Overflow TableView 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.Stack-Overflow-TableView-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stack Overflow TableView 1";
+			};
+			name = Debug;
+		};
+		3969EAD42142BB2000220A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stack Overflow TableView 1UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.frameworkcentral.Stack-Overflow-TableView-1UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Stack Overflow TableView 1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3969EA9F2142BB1D00220A58 /* Build configuration list for PBXProject "Stack Overflow TableView 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3969EACA2142BB2000220A58 /* Debug */,
+				3969EACB2142BB2000220A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3969EACC2142BB2000220A58 /* Build configuration list for PBXNativeTarget "Stack Overflow TableView 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3969EACD2142BB2000220A58 /* Debug */,
+				3969EACE2142BB2000220A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3969EACF2142BB2000220A58 /* Build configuration list for PBXNativeTarget "Stack Overflow TableView 1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3969EAD02142BB2000220A58 /* Debug */,
+				3969EAD12142BB2000220A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3969EAD22142BB2000220A58 /* Build configuration list for PBXNativeTarget "Stack Overflow TableView 1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3969EAD32142BB2000220A58 /* Debug */,
+				3969EAD42142BB2000220A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3969EA9C2142BB1D00220A58 /* Project object */;
+}
